@@ -1,6 +1,6 @@
 # trungnt-android3-assignment9
 
-##Làm quan Activity Stack
+##Làm quen Activity Stack
 Làm quen với Activity stack: mọi người tạo 10 activity từ 1 -> 10. 
 Theo thứ tự:
 - Activity1 có button ấn vào mở Activity2
@@ -17,4 +17,5 @@ Theo thứ tự:
 + [Task and Back Stack](http://developer.android.com/guide/components/tasks-and-back-stack.html)
 + [How to clear all activity stack in Android](http://tips.androidhive.info/2013/10/how-to-clear-all-activity-stack-in-android/)
 + [Tìm hiểu Launch Mode của Activity trong Android](https://inthecheesefactory.com/blog/understand-android-activity-launchmode/en)
++ [Navigation and Task Stack](https://guides.codepath.com/android/Navigation-and-Task-Stacks)
 
