@@ -8,6 +8,8 @@ Theo thứ tự:
 ...
 - Activity10 có button ấn vào mở Activity1 và xoá toàn bộ các Acvity từ 2-10 khỏi stack
 
+![Learn Activity - Back Stack](http://i477.photobucket.com/albums/rr132/trungepu/Fragment%20back-stack_zps2ri1eeab.jpg)
+
 ##Môi trường phát triển
 + Hệ điều hành Android 5.0 - api 21
 + Máy ảo avd sử dụng Api 21
