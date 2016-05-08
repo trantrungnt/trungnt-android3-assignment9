@@ -8,6 +8,12 @@ Theo thứ tự:
 ...
 - Activity10 có button ấn vào mở Activity1 và xoá toàn bộ các Acvity từ 2-10 khỏi stack
 
+##Môi trường phát triển
++ Hệ điều hành Android 5.0 - api 21
++ Máy ảo avd sử dụng Api 21
+
+
 ##Tham khảo
 + [Task and Back Stack](http://developer.android.com/guide/components/tasks-and-back-stack.html)
 + [How to clear all activity stack in Android](http://tips.androidhive.info/2013/10/how-to-clear-all-activity-stack-in-android/)
+
