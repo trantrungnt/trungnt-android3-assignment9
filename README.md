@@ -16,4 +16,5 @@ Theo thứ tự:
 ##Tham khảo
 + [Task and Back Stack](http://developer.android.com/guide/components/tasks-and-back-stack.html)
 + [How to clear all activity stack in Android](http://tips.androidhive.info/2013/10/how-to-clear-all-activity-stack-in-android/)
++ [Tìm hiểu Launch Mode của Activity trong Android](https://inthecheesefactory.com/blog/understand-android-activity-launchmode/en)
 
