@@ -12,6 +12,6 @@
     <Button
         android:id="@+id/btnAcitivy1"
         android:text="Open Acitivy 2"
-        android:layout_width="100dp"
-        android:layout_height="30dp" />
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height" />
 </RelativeLayout>

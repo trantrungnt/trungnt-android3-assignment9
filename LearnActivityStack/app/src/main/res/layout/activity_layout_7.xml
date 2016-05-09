@@ -6,6 +6,6 @@
     <Button
         android:id="@+id/btnAcitivy7"
         android:text="Open Acitivy 8"
-        android:layout_width="100dp"
-        android:layout_height="30dp" />
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height" />
 </LinearLayout>

@@ -1,26 +1,28 @@
 package techkids.mad3.learnactivitystack;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity1 extends AppCompatActivity {
-
+/**
+ * Created by TrungNT on 5/9/2016.
+ */
+public class Activity9 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_layout_1);
+        setContentView(R.layout.activity_layout_9);
 
-        Button btnOpenActivity = (Button) this.findViewById(R.id.btnAcitivy1);
+        Button btnOpenActivity = (Button) this.findViewById(R.id.btnAcitivy9);
         btnOpenActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity1.this, Activity2.class);
+                Intent i = new Intent(Activity9.this, Activity10.class);
                 startActivity(i);
                 finish();
-            }
+                    }
         });
     }
 }
