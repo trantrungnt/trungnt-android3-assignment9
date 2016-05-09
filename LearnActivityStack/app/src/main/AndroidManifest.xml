@@ -16,31 +16,31 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Activity2" android:launchMode="singleTop">
+        <activity android:name=".Activity2">
         </activity>
 
-        <activity android:name=".Activity3" android:launchMode="singleTop">
+        <activity android:name=".Activity3">
         </activity>
 
-        <activity android:name=".Activity4" android:launchMode="singleTop">
+        <activity android:name=".Activity4">
         </activity>
 
-        <activity android:name=".Activity5" android:launchMode="singleTop">
+        <activity android:name=".Activity5">
         </activity>
 
-        <activity android:name=".Activity6" android:launchMode="singleTop">
+        <activity android:name=".Activity6">
         </activity>
 
-        <activity android:name=".Activity7" android:launchMode="singleTop">
+        <activity android:name=".Activity7">
         </activity>
 
-        <activity android:name=".Activity8" android:launchMode="singleTop">
+        <activity android:name=".Activity8">
         </activity>
 
-        <activity android:name=".Activity9" android:launchMode="singleTop">
+        <activity android:name=".Activity9">
         </activity>
 
-        <activity android:name=".Activity10" android:launchMode="singleTop">
+        <activity android:name=".Activity10">
         </activity>
     </application>
 

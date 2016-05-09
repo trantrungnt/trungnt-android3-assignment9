@@ -21,9 +21,8 @@ public class Activity10 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(Activity10.this, MainActivity1.class);
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(i);
-                finish();
+
             }
 
         });
