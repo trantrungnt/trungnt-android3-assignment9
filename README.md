@@ -23,4 +23,5 @@ Theo thứ tự:
 + [Managin acitivity back stack](http://www.slideshare.net/rajdeep/managing-activity-backstack)
 + [android activities and tasks series intent flag](https://blog.akquinet.de/2010/04/15/android-activites-and-tasks-series-intent-flags/)
 + [Clear activity stack](http://www.lucas-dev.com/blog/entry/clear-activity-stack.html)
++ [Remove and Adding Activities  to the back stack](http://stackoverflow.com/questions/20241544/removing-and-adding-activities-to-the-back-stack)
 
