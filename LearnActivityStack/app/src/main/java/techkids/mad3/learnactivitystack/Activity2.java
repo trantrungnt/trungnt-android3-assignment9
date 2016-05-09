@@ -23,5 +23,15 @@ public class Activity2 extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button btnBackActivity = (Button) this.findViewById(R.id.btnBackMainActivity1);
+        btnBackActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentBackActivity = new Intent(Activity2.this, MainActivity1.class);
+                startActivity(intentBackActivity);
+            }
+        });
+
     }
 }

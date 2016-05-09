@@ -23,5 +23,14 @@ public class Activity3 extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button btnBackActivity2 = (Button) this.findViewById(R.id.btnBackActivity2);
+        btnBackActivity2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iBackActivity2 = new Intent(Activity3.this, MainActivity1.class);
+                startActivity(iBackActivity2);
+            }
+        });
     }
 }

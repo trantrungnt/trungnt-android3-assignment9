@@ -27,7 +27,6 @@ public class Activity10 extends AppCompatActivity {
 
         });
 
-
     }
 
 
