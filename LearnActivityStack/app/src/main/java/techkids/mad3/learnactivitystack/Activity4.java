@@ -21,7 +21,15 @@ public class Activity4 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(Activity4.this, Activity5.class);
                 startActivity(i);
-                finish();
+            }
+        });
+
+        final Button btnBackActivity3 = (Button) this.findViewById(R.id.btnBackActivity3);
+        btnBackActivity3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iBack = new Intent(Activity4.this, Activity3.class);
+                startActivity(iBack);
             }
         });
     }

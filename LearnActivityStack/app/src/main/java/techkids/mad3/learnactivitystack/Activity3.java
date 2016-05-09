@@ -28,7 +28,7 @@ public class Activity3 extends AppCompatActivity {
         btnBackActivity2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent iBackActivity2 = new Intent(Activity3.this, MainActivity1.class);
+                Intent iBackActivity2 = new Intent(Activity3.this, Activity2.class);
                 startActivity(iBackActivity2);
             }
         });

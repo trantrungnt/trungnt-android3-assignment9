@@ -5,7 +5,18 @@
 
     <Button
         android:id="@+id/btnAcitivy5"
+        android:layout_marginTop="@dimen/button_marginTop"
+        android:layout_marginLeft="@dimen/button_marginLeft"
         android:text="Open Activity 6"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height" />
+
+    <Button
+        android:id="@+id/btnBackActivity4"
+        android:text="Back Activity 4"
+        android:layout_marginTop="@dimen/button_marginTop"
+        android:layout_marginLeft="@dimen/button_marginLeft"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height" />
+
 </LinearLayout>
