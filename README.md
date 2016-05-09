@@ -10,7 +10,7 @@ Theo thứ tự:
 
 ![Learn Activity - Back Stack](http://i477.photobucket.com/albums/rr132/trungepu/Fragment%20back-stack_zps2ri1eeab.jpg)
 
-#Chú ý khi code:
+##Chú ý khi code:
 + Trong Manifest.xml, ta cấu hình cho các Activty launch mode ở chế độ android:launchMode="singleTop" (từ MainActivity1 đến Activity10). Chế độ singleTop có tác dụng khi ta click vào nút Back của máy điện thoại Android thì Acitivty không tạo mới nữa, nó sẽ lấy Activity cũ đã tồn tại và cho lên top của Stack (vào trước ra sau), 
 ```
 <activity android:name=".Activity2" android:launchMode="singleTop">
@@ -46,4 +46,5 @@ Button btnOpenActivity = (Button) this.findViewById(R.id.btnAcitivy10);
 + [Remove and Adding Activities  to the back stack](http://stackoverflow.com/questions/20241544/removing-and-adding-activities-to-the-back-stack)
 + [Back Stack](https://binhvova.wordpress.com/category/android/)
 + [FLAG_ACTIVITY_CLEAR_TOP in Android](http://developer.android.com/reference/android/content/Intent.html#FLAG_ACTIVITY_CLEAR_TOP)
++ [use Intent in Android](http://developer.android.com/reference/android/content/Intent.html)
 
