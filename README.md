@@ -25,4 +25,5 @@ Theo thứ tự:
 + [Clear activity stack](http://www.lucas-dev.com/blog/entry/clear-activity-stack.html)
 + [Remove and Adding Activities  to the back stack](http://stackoverflow.com/questions/20241544/removing-and-adding-activities-to-the-back-stack)
 + [Back Stack](https://binhvova.wordpress.com/category/android/)
++ [FLAG_ACTIVITY_CLEAR_TOP in Android](http://developer.android.com/reference/android/content/Intent.html#FLAG_ACTIVITY_CLEAR_TOP)
 
