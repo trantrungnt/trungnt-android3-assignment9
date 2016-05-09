@@ -22,11 +22,8 @@ public class Activity10 extends AppCompatActivity {
                 Intent i = new Intent(Activity10.this, MainActivity1.class);
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
-
             }
-
         });
-
     }
 
 
