@@ -12,7 +12,7 @@
         android:layout_height="@dimen/button_height" />
 
     <Button
-        android:id="@+id/btnBackACtivity5"
+        android:id="@+id/btnBackActivity6"
         android:text="Back Activity 5"
         android:layout_marginLeft="@dimen/button_marginLeft"
         android:layout_marginTop="@dimen/button_marginTop"
