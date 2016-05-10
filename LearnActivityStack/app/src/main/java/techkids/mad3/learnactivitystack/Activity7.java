@@ -24,7 +24,7 @@ public class Activity7 extends AppCompatActivity {
             }
         });
 
-        Button btnBack = (Button) this.findViewById(R.id.btnAcitivy7);
+        Button btnBack = (Button) this.findViewById(R.id.btnBackActivity7);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

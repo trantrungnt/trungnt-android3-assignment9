@@ -24,7 +24,7 @@ public class Activity9 extends AppCompatActivity {
                     }
         });
 
-        Button btnBack = (Button) this.findViewById(R.id.btnAcitivy9);
+        Button btnBack = (Button) this.findViewById(R.id.btnBackActivity9);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
