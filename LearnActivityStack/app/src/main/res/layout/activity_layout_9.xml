@@ -6,6 +6,16 @@
     <Button
         android:id="@+id/btnAcitivy9"
         android:text="Open Acitvity 10"
+        android:layout_marginTop="@dimen/button_marginTop"
+        android:layout_marginLeft="@dimen/button_marginLeft"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height" />
+
+    <Button
+        android:id="@+id/btnBackActivity8"
+        android:text="Back Activity 8"
+        android:layout_marginTop="@dimen/button_marginTop"
+        android:layout_marginLeft="@dimen/button_marginLeft"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height" />
 </LinearLayout>
