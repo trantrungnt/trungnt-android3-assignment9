@@ -21,8 +21,17 @@ public class Activity7 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(Activity7.this, Activity8.class);
                 startActivity(i);
-                finish();
             }
         });
+
+        Button btnBack = (Button) this.findViewById(R.id.btnAcitivy7);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iBack = new Intent(Activity7.this, Activity6.class);
+                startActivity(iBack);
+            }
+        });
+
     }
 }
