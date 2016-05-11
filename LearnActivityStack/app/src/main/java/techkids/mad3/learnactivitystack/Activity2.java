@@ -19,8 +19,8 @@ public class Activity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Activity2.this, Activity3.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
-                finish();
             }
         });
 
@@ -29,6 +29,7 @@ public class Activity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intentBackActivity = new Intent(Activity2.this, MainActivity1.class);
+                intentBackActivity.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intentBackActivity);
             }
         });

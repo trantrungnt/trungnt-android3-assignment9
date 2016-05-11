@@ -19,8 +19,9 @@ public class Activity3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Activity3.this, Activity4.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
-                finish();
+
             }
         });
 

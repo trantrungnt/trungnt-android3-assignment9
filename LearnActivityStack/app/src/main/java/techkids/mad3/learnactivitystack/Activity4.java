@@ -20,7 +20,9 @@ public class Activity4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Activity4.this, Activity5.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
+
             }
         });
 
